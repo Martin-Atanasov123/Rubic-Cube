@@ -1,4 +1,4 @@
-# 🧩 Rubik's Cube Game Online
+# 🧩 Rubik's Cube Game Online 🧩
 
 Welcome to the **Rubik's Cube Game Online**! This project is a 3D Rubik's Cube game made with Three.js and TypeScript, based on HTML. 🎮
 
