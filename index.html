@@ -7,7 +7,6 @@
     <meta property="og:title" content="RubikCube - Rubik's Cube">
     <meta property="og:description" content="A 3D Rubik's Cube game made with Three.js and TypeScript based on HTML">
     <meta property="og:keywords" content="Rubik's Cube, rubik, Three.js, three, webgl, 3D, cube, game, online, minicode, online">
-    <meta property="author" content="Pengfei Wang">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <style>
         * {
@@ -39,6 +38,8 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            font-size: x-large;
+            justify-content: center;
             /* color: white; */
         }
 
@@ -68,8 +69,7 @@
     <div id="status">
         <h1>Rubik's Cube</h1>
         <div class="status-item">
-            <label for="finish">Status: </label>
-            <span id="finish"></span>
+
         </div>
         <div class="status-item">
             <label for="order-select">Order: </label>
@@ -82,8 +82,8 @@
                 <option value="7">7</option>
                 <option value="8">8</option>
                 <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                <option value="10">10</option> 
+            </select> 
         </div>
         <div class="status-item">
             <button id="restore">Restore</button>
@@ -92,9 +92,7 @@
         <div class="status-item">
             <button id="disorder">Scramble</button>
         </div>
-        <div>
-            <a href="https://github.com/pengfeiw/rubiks-cube">View Source Code</a>
-        </div>
+
     </div>
     <script type="module" src="./out-tsc/src/index.js"></script>
 </body>
