@@ -1,29 +1,69 @@
-# Rubik Cube
+# 🧩 Rubik's Cube Game Online
 
-ThreeJs 制作的魔方游戏，支持自定义魔方阶级（目前界面上只开放 2 - 10 阶魔方）。
+Welcome to the **Rubik's Cube Game Online**! This project is a 3D Rubik's Cube game made with Three.js and TypeScript, based on HTML. 🎮
 
-## Demo
+## 🌟 Features
 
-试玩地址：[Rubiks Cube - 魔方](https://pengfeiw.github.io/minicode/threejs-rubik)
+- 🧩 **3D Rubik's Cube**: A fully interactive 3D Rubik's Cube.
+- 🎨 **Customizable**: Supports custom cube orders (2x2 to 10x10).
+- 🚀 **Smooth Animations**: Enjoy smooth and realistic cube rotations.
+- 🌐 **Online Play**: Play directly in your browser.
 
-## 运行项目
+## 📸 Demo
 
-1. 安装
+Check out the live demo: [Rubik's Cube - Play Now](https://martin-atanasov123.github.io/rubiks-cube-main/)
 
-```shell
-npm install
-```
+## 🛠️ Installation
 
-2. 运行
+To run this project locally, follow these steps:
 
-```shell
-npm run start
-```
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/Martin-Atanasov123/rubiks-cube.git
+    cd rubiks-cube
+    ```
 
-3. 打开浏览器
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-浏览器输入 `http://localhost:8000`。
+3. **Start the development server**:
+    ```sh
+    npm run start
+    ```
 
-## more
+4. **Open your browser**:
+    Open your browser and navigate to `http://localhost:8000`.
 
-更多内容请关注 [Minicode](https://pengfeiw.github.io/minicode)。
+## 📂 Project Structure
+
+Here's an overview of the project's structure:
+rubiks-cube/ ├── src/ │ ├── index.ts │ ├── rubiks/ │ │ ├── components/ │ │ │ ├── camera.ts │ │ │ ├── renderer.ts │ │ │ └── scene.ts │ │ ├── core/ │ │ │ ├── control.ts │ │ │ ├── cube.ts │ │ │ ├── cubeData.ts │ │ │ ├── cubeState.ts │ │ │ ├── square.ts │ │ │ └── statusbar.ts │ │ ├── util/ │ │ │ ├── math.ts │ │ │ └── transform.ts │ │ └── index.ts ├── out-tsc/ ├── .github/ │ └── workflows/ │ └── gh-pages.deploy.yml ├── .gitignore ├── index.html ├── package.json ├── readme.md ├── rollup.config.js ├── tsconfig.json └── web-dev-server.config.js
+
+
+## 🚀 Usage
+
+### Changing the Cube Order
+
+You can change the order of the cube (2x2 to 10x10) using the dropdown menu in the UI.
+
+
+
+### Restoring the Cube
+
+Click the "Restore" button to reset the cube to its initial state.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](http://_vscodecontentref_/1) file for details.
+
+
+
+## 📧 Contact
+
+If you have any questions or feedback, feel free to reach out to me at [matanasov573@gmail.com](mailto:matanasov573@gmail.com).
+
+---
+
+Enjoy solving the Rubik's Cube! 🧩✨

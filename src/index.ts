@@ -27,5 +27,7 @@ window.onload = () => {
                 rubiks.restore();
             }
         });
+        
     }
 };
+
