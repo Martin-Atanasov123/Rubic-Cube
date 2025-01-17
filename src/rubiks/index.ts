@@ -74,9 +74,7 @@ class Rubiks {
         }
     }
 
-    /**
-     * 还原
-     */
+
     public restore() {
         if (this.cube) {
             this.cube.restore();
