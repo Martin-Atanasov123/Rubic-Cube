@@ -65,9 +65,6 @@ class Rubiks {
         this.render();
     }
 
-    /**
-     * 打乱
-     */
     public disorder() {
         if (this.cube) {
 
